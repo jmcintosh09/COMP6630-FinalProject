@@ -95,7 +95,7 @@ def recommend_movies(data_file, movie_query, algorithm, k_recommendations):
     return movie_recommendations
 
 if __name__ == '__main__':
-    file = 'movies_clean.csv'
+    file = "KaggleMovies/data/cleanMovies.csv"
     encanto = [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0] # feature vector for Encanto
     movie_title = "Encanto"
     number_of_movies = 10

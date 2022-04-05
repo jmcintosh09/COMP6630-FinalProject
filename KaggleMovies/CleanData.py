@@ -2,7 +2,7 @@ from turtle import title
 import pandas as pd
 import csv
 
-csv_file = "movies.csv"
+csv_file = "KaggleMovies/data/movies1.csv"
 csv_list = []
 
 # Read to list
@@ -36,4 +36,5 @@ for line in csv_list:
 X = pd.DataFrame(pandas_feature_list).fillna(0)
 Y = pd.DataFrame(pandas_label_list)
 
-X.to_csv("movies_clean.csv")
+
+X.to_csv("KaggleMovies/data/cleanMovies.csv")
