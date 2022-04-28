@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 
 metadata = pd.read_csv('box_office_revenue/data/movies_metadata.csv')
@@ -26,6 +26,7 @@ for i in df['genres']:
 
 X['genre'] = genres_arr
 X = X.drop(['genres','rank'], axis=1)
+new_X = X.copy()
 
 le = LabelEncoder()
 X['title'] = le.fit_transform(X['title'])
@@ -35,3 +36,4 @@ X['year'] = le.fit_transform(X['year'])
 
 X.to_csv('box_office_revenue/data/X_data.csv')
 y.to_csv('box_office_revenue/data/y_data.csv')
+new_X.to_csv('box_office_revenue/data/new_X_data.csv')
