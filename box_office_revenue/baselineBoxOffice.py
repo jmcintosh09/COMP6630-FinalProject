@@ -4,13 +4,12 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.dummy import DummyClassifier
 
-datasetX= pd.read_csv("data/X_data.csv")
-datasetY= pd.read_csv("data/y_data.csv")
+dataset= pd.read_csv("box_office_revenue/data/boxoffice.csv")
 
-feature_columns=["runtime","title","studio","year","genre"]
-X=datasetX[feature_columns]
+feature_columns=["rank","title","studio","year"]
+X=dataset[feature_columns]
 
-y=datasetY.lifetime_gross
+y=dataset.lifetime_gross
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
