@@ -61,8 +61,9 @@ if __name__ == '__main__':
     recommended_movies = recommend_movies(data_file=file, movie_query=movie, algorithm=baseline, k_recommendations=number_of_movies)
 
     # Print recommended movie titles
+    print()
     print ("Movie Recommendations for " + movie_title + ":")
-    print ("Number of Genres: 2")
+    print ("Number of Genres: 2 (Adventure, Comedy)")
     for recommendation in recommended_movies:
         print(recommendation[1])
     print()
@@ -75,7 +76,7 @@ if __name__ == '__main__':
 
     # Print recommended movie titles
     print ("Movie Recommendations for " + movie_title + ":")
-    print ("Number of Genres: 3")
+    print ("Number of Genres: 3 (Adventure, Animation, Comedy)")
     for recommendation in recommended_movies:
         print(recommendation[1])
     print()
@@ -88,7 +89,7 @@ if __name__ == '__main__':
 
     # Print recommended movie titles
     print ("Movie Recommendations for " + movie_title + ":")
-    print ("Number of Genres: 4")
+    print ("Number of Genres: 4 (Adventure, Drama, Action, Sci-Fi)")
     for recommendation in recommended_movies:
         print(recommendation[1])
     print()
@@ -101,7 +102,7 @@ if __name__ == '__main__':
 
     # Print recommended movie titles
     print ("Movie Recommendations for " + movie_title + ":")
-    print ("Number of Genres: 5")
+    print ("Number of Genres: 5 (Adventure, Animation, Children, Comedy, Musical)")
     for recommendation in recommended_movies:
         print(recommendation[1])
     print()
