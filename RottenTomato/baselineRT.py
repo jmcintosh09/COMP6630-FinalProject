@@ -34,5 +34,5 @@ for s in strategies:
 
 
 ax = sns.stripplot(strategies, test_scores);
-ax.set(xlabel ='Strategy', ylabel ='Accuracy')
+ax.set(xlabel ='Strategy', ylabel ='Accuracy', title='Rotten Tomatoes Baseline Accuracy')
 plt.show()
