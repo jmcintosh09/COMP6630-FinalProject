@@ -18,15 +18,6 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.70, random_state=42)
 #creating and fitting the decision tree
 
-
-dummy_clf = DummyClassifier(classes=[])
-dummy_clf.fit(X_train,y_train)
-
-dummy_y_pred = dummy_clf.predict(X_test)
-
-print("Accuracy of the baseline algorithm:",metrics.accuracy_score(y_test, dummy_y_pred))
-
-
 clf = DecisionTreeClassifier()
 clf.fit(X_train,y_train)
 
