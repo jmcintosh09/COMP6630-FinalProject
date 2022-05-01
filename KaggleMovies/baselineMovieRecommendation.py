@@ -122,6 +122,6 @@ if __name__ == '__main__':
     plt.barh(y_pos, total_count, align='center', alpha=0.5)
     plt.yticks(y_pos, genres)
     plt.xlabel('Total')
-    plt.title('Movie Genres')
+    plt.title('Total Count per Movie Genre')
 
     plt.show()
