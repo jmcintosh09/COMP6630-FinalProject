@@ -1,4 +1,4 @@
-movie_title,genres,tomatometer_rating,predicted_y,predicted_y_string,Adventure,Animation,Children,Comedy,Fantasy,Romance,Drama,Action,Crime,Thriller,Horror,Mystery,Sci-Fi,War,Musical,Documentar,IMAX,Western,Film-Noir,(no genre listed)
+Title,genres,tomatometer_rating,predicted_y,predicted_y_string,Adventure,Animation,Children,Comedy,Fantasy,Romance,Drama,Action,Crime,Thriller,Horror,Mystery,Sci-Fi,War,Musical,Documentary,IMAX,Western,Film-Noir,(no genres listed)
 Percy Jackson & the Olympians: The Lightning Thief,"Action & Adventure, Comedy, Drama, Science Fiction & Fantasy",49,-1,Rotten,1,0,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0
 Please Give,Comedy,87,1,Certified Fresh,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 10,"Comedy, Romance",67,0,Fresh,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
