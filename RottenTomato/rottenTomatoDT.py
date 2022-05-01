@@ -77,4 +77,4 @@ all_movies_X['predicted_y_string']=resultsString
 #removing columns that will not be needed for movie recommendation machine
 FinalResults=all_movies_X.drop(["content_rating_as_int","tomatometer_count","tomatometer_top_critics_count","tomatometer_fresh_critics_count","tomatometer_rotten_critics_count"], axis=1)
 
-FinalResults.to_csv('RottenTomato/data/RottenTomatoesMoviesForMachine.csv', index=False) 
+#FinalResults.to_csv('RottenTomato/data/RottenTomatoesMoviesForMachine.csv', index=False) 
