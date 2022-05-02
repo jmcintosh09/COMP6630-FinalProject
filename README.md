@@ -29,7 +29,7 @@ cd COMP6630-FinalProject
 ### Rotten Tomato Scores
 - Baseline algorithm: `python RottenTomatoes/baselineRT.py`
 - Decision Tree algorithm from scratch: `python RottenTomatoes/decisionTreeRT.py`
-- Decision Tree algorithm using sckit-learn: `python RottenTomatoes/rottenTomatoeDT.py`
+- Decision Tree algorithm using sckit-learn: `python RottenTomatoes/rottenTomatoDT.py`
 
 ### Box Office Revenue
 - Baseline algorithm: `python box_office_revenue/baselineBoxOffice.py`
